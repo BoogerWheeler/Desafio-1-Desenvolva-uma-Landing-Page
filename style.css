@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+#div01{
+    background-color:#303030 ;
+    padding-top: 175px;
+    padding-bottom: 125px;
+}
+
+#titulo1{
+    color: #FFF;
+    margin-left: 50px;
+    font-size: 50px;
+    letter-spacing: -1.5px;
+}
+
+#texto1{
+    color: #FFF;
+    margin-left: 50px;
+    margin-top: 15px;
+    font-size: 20px;
+ }
+
+#div02{
+    background-color:#F9F9F9 ;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 75px;
+}
+
+.imgdiv02{
+    display: flex;
+    align-items: center;
+}
+
+#div03{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#titulo03{
+    margin-top: 175px ;
+    margin-right: 20px ;
+    margin-bottom: 0px ;
+    margin-left: 50px ;
+    color: #000;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#texto03{
+    margin-top: 0px ;
+    margin-right: 20px ;
+    margin-bottom: 0px ;
+    margin-left: 50px ;
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#div04{
+    background-color: #303030;
+    text-align: center;
+}
+
+#titulo04{
+    color: #FFF;
+    padding-top: 75px;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.form{
+    color: rgba(0, 0, 0, 0.30);
+    font-family: 'Raleway', sans-serif;;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+input{
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    background: #FFF;
+    margin-top: 50px;
+    border: 0px;
+    border-radius: 10px;
+    padding-left: 25px;
+}
+
+button{
+    width: 286px;
+    height: 74px;
+    font-family: 'Raleway', sans-serif;;
+    margin-top: 75px;
+    border-radius: 10px;
+    margin-bottom: 75px;
+    background: #C07212;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;/   
+}
+
+button:hover{
+    background: #df7b01; 
+    color: white;
+    transform: translateY(-10px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 10px 10px #8f8f8f;
+}
